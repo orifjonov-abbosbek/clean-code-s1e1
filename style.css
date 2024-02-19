@@ -30,12 +30,12 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.add_task-input {
+.adding_task-task_input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.add_task-wrapper {
+.adding_task-wrapper {
   display: flex;
 }
 ul {
@@ -113,9 +113,10 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li > input[type="todo_list-checkbox"] {
   margin: 0 10px;
 }
+
 li > label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -125,12 +126,12 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
-button.delete img {
+button.todo_list-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.todo_list-delete img:hover {
   transform: rotateZ(0);
 }
 
